@@ -14,7 +14,7 @@ The goal is to extract actionable business insights, identify trends, and provid
 
 **Covers:** Data cleaning · SQL analysis · Python EDA · Cohort analysis · RFM segmentation · Forecasting · Dashboard
 
-### 🇩🇪 Deutsch
+### DE Deutsch
 Dieses Projekt demonstriert einen vollständigen Datenanalyseprozess anhand eines realen E-Commerce-Datensatzes.
 Ziel ist es, umsetzbare Geschäftserkenntnisse zu gewinnen, Trends zu identifizieren und konkrete Empfehlungen zu geben.
 
@@ -24,7 +24,7 @@ Ziel ist es, umsetzbare Geschäftserkenntnisse zu gewinnen, Trends zu identifizi
 
 ## 🎯 Business Questions / Geschäftsfragen
 
-| # | EN English | 🇩🇪 Deutsch |
+| # | EN English | DE Deutsch |
 |---|---|---|
 | 1 | Which products drive the most revenue? | Welche Produkte generieren den meisten Umsatz? |
 | 2 | How does customer retention change over time? | Wie verändert sich die Kundenbindung über die Zeit? |
@@ -36,7 +36,7 @@ Ziel ist es, umsetzbare Geschäftserkenntnisse zu gewinnen, Trends zu identifizi
 
 ## 🔍 Key Findings / Wichtigste Erkenntnisse
 
-| EN Finding | 🇩🇪 Erkenntnis | Detail |
+| EN Finding | DE Erkenntnis | Detail |
 |---|---|---|
 | Pareto confirmed | Pareto bestätigt | Top ~10% of SKUs → 80% of revenue |
 | Retention problem | Bindungsproblem | Only ~25% of customers return after month 1 |
@@ -49,7 +49,7 @@ Ziel ist es, umsetzbare Geschäftserkenntnisse zu gewinnen, Trends zu identifizi
 
 ## 💡 Recommendations / Empfehlungen
 
-| Priority / Priorität | EN Action | 🇩🇪 Maßnahme |
+| Priority / Priorität | EN Action | DE Maßnahme |
 |---|---|---|
 | 🔴 High / Hoch | 30-day post-purchase email sequence | 30-Tage-E-Mail-Sequenz nach dem Kauf |
 | 🔴 High / Hoch | VIP loyalty programme for Champions | VIP-Treueprogramm für Champions |
@@ -88,7 +88,7 @@ sales-analysis/
 │
 ├── dashboard/
 │   ├── dashboard.pbix               # EN Power BI file / DE Power BI Datei
-│   └── screenshot.png               # EN Dashboard preview / DE Dashboard-Vorschau
+│   └── screenshot.pdf               # EN Dashboard preview / DE Dashboard-Vorschau
 │
 └── README.md
 ```
@@ -97,7 +97,7 @@ sales-analysis/
 
 ## 🧹 Data Cleaning Decisions / Datenbereinigungsentscheidungen
 
-| EN Issue | 🇩🇪 Problem | Scale / Umfang | Action / Maßnahme |
+| EN Issue | DE Problem | Scale / Umfang | Action / Maßnahme |
 |---|---|---|---|
 | Negative Quantity (returns) | Negative Menge (Rücksendungen) | 10,624 rows | Removed / Entfernt |
 | Zero / negative UnitPrice | Null / negativer Preis | 2,517 rows | Removed / Entfernt |
@@ -111,7 +111,7 @@ sales-analysis/
 
 ## 📊 Analysis Modules / Analysemodule
 
-| # | EN Module | 🇩🇪 Modul |
+| # | EN Module | DE Modul |
 |---|---|---|
 | 1 | KPI Dashboard | KPI-Dashboard |
 | 2 | Revenue Trend & Seasonality | Umsatztrend & Saisonalität |
@@ -169,5 +169,5 @@ sql/queries.sql
 ### EN English
 This project demonstrates practical data analysis skills including data cleaning, SQL with window functions, Python EDA, cohort analysis, RFM segmentation, statistical analysis, and business-oriented thinking. It reflects the ability to turn raw data into actionable insights — a key requirement for a Data Analyst role.
 
-### 🇩🇪 Deutsch
+### DE Deutsch
 Dieses Projekt demonstriert praktische Datenanalysefähigkeiten: Datenbereinigung, SQL mit Fensterfunktionen, Python-EDA, Kohortenanalyse, RFM-Segmentierung, statistische Analyse und geschäftsorientiertes Denken. Es zeigt die Fähigkeit, Rohdaten in umsetzbare Erkenntnisse umzuwandeln — eine zentrale Anforderung für eine Data-Analyst-Stelle.
