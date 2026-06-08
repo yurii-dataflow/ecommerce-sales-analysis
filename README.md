@@ -158,7 +158,7 @@ sql/queries.sql
 
 ## 📬 Contacts / Kontakt
 
-- **LinkedIn:** www.linkedin.com/in/yurii-oleshchuk-b2453b1a2
+
 - **GitHub:** https://github.com/yurii-dataflow
 - **Email:** oleshchukyurii@gmail.com
 
